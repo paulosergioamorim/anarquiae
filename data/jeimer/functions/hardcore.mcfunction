@@ -1,1 +1,1 @@
-execute at @a[scores={deaths=1..}] run gamemode spectator
+gamemode spectator @a[scores={deaths=1..}]

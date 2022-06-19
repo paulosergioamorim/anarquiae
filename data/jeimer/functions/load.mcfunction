@@ -1,5 +1,6 @@
 scoreboard objectives add ticks dummy
 scoreboard objectives add days dummy
+scoreboard players set _ ticks 24000
 scoreboard players set _ days 1
 
 bossbar add jeimer:timer ""
