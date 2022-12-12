@@ -21,7 +21,7 @@ kill @a
 time set 0d
 recipe take @a *
 spawnpoint @a 0 ~ 0
-execute at @a run gamemode survival
+gamemode survival @a
 advancement revoke @a everything
 difficulty peaceful
 
@@ -30,4 +30,4 @@ gamerule doInsomnia false
 gamerule logAdminCommands false
 
 worldborder center 0 0
-worldborder set 500
+worldborder set 1000
